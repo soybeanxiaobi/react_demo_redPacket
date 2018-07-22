@@ -1,0 +1,114 @@
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style:none;
+}
+
+.setItemCont{
+    /*text-align:center;*/
+}
+
+.packetWried{
+    width:250px;
+    height:400px;
+    text-align: center;
+    border-radius:20px;
+    background-color:#e05469;
+    margin:20px auto;
+    position:relative;
+}
+
+.packetHead{
+    font-size:20px;
+    color:#FFF;
+    width:100%;
+    height:40px;
+    line-height:40px;
+    border-bottom:1px solid #FFF;
+}
+
+/*输入样式*/
+.packetItem{
+    font-size:14px;
+    color:#FFF;
+    padding:5px 10px;
+}
+.itemList{
+    margin-top:20px;
+}
+.itemList span{
+    float:left;
+}
+.itemList input{
+    font-size:15px;
+    display: block;
+    width:94%;
+    border:1px solid #FFF;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+    padding:3px;
+    position:relative;
+    top:5px;
+}
+
+
+/*底部按钮*/
+.sendPacket{
+    font-size:16px;
+    color:#e05469;
+    text-decoration:none;
+    width:50px;
+    height:50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #FFF;
+    border-radius:80px;
+    transform:translateX(-50%);
+    left:50%;
+    position:absolute;
+    bottom:20px;
+    cursor:pointer;
+    display: block;
+}
+
+
+/*打开红包*/
+.openPacketHead{
+    color:#FFF;
+    font-size:14px;
+    padding:8px 0;
+    /*border-bottom:1px solid #FFF;*/
+
+}
+.openPacketItem,.packetItemBtm,.packetItemTop{
+    width:100%;    
+    background-color:#ffdcda;
+}
+.openPacketItem{
+    font-size:14px;
+    color:rgb(160,60,60);
+    height:280px;
+    overflow-y: scroll;
+}
+
+.openItemList{
+    padding:10px 0 4px;
+    border-bottom:1px solid #f3a2a2;
+}
+
+.backBtn{
+    font-size:15px;
+    color:#FFF;
+    width:90%;
+    height:30px;
+    background: rgba(255,255,255,.4);
+    line-height: 30px;
+    text-align: center;
+    transform:translateX(-50%);
+    border-radius:5px;
+    position: absolute;
+    left:50%;
+    bottom:25px;
+
+}
